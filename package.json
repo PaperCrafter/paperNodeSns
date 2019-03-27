@@ -1,0 +1,24 @@
+{
+  "name": "papersns",
+  "version": "0.0.1",
+  "description": "익스프레스로 만드는 첫 sns 프로젝트",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "papercrafter",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10",
+    "npm": "^6.8.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.1"
+  }
+}
