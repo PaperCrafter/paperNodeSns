@@ -35,7 +35,7 @@ router.post('/login', isNotLoggedIn, (req,res, next)=>{
             return next(authError);
         }
 
-        if(!User){
+        if(!user){
             req.flash('loginError', info.messsage);
             return res.redirect('/');
         }
