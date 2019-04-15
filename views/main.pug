@@ -3,6 +3,8 @@ extends layout
 block content
   .timeline
     if user
+      script.
+        console.log (user);
       div
         form#twit-form(action='/post' method='post' enctype='multipart/form-data')
           .input-group
